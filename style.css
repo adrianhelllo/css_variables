@@ -7,15 +7,25 @@
 }
 
 :root {
-    background-color: aqua;
+    --BGCOLOR: #333;
+    --FONTCOLOR_BR: #ddd;
+    --FONTCOLOR_DK: #999;
+}
+
+html {
+    background-color: var(--BGCOLOR);
 }
 
 body {
     font-family: 'Schibsted Grotesk', sans-serif;
-    background-color: aquamarine;
-    margin: 1rem;
 }
 
 h1 {
     margin: 1rem 0;
+    color: var(--FONTCOLOR_BR);
+}
+
+p {
+    margin: 1rem 3rem;
+    color: var(--FONTCOLOR_DK);
 }
