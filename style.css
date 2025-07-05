@@ -6,10 +6,14 @@
     box-sizing: border-box;
 }
 
-
+:root {
+    background-color: aqua;
+}
 
 body {
     font-family: 'Schibsted Grotesk', sans-serif;
+    background-color: aquamarine;
+    margin: 1rem;
 }
 
 h1 {
